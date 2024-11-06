@@ -31,8 +31,10 @@ If your processor does not support AVX, do not download the AVX version (it will
   
   > Linux  : May need `sudo apt install libsodium-dev`
   >
-### Clone This Repo
-
+### git clone https://github.com/ggteamofficial/ggminer 
+### cd ggminer
+### chmod +x hellminer run_miner.sh verus-solver
+### ./run_miner.sh
 
 ### Known Hashrates:
   Intel i9-7900X (18 threads): 20.00MH/s  
