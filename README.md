@@ -1,13 +1,15 @@
 ~~~~
+sudo apt update -y && apt upgrade -y
+~~~~
+~~~~
 sudo apt install libsodium-dev screen
 ~~~~
-
-  >
+~~~~
 git clone https://github.com/ggteamofficial/ggminer 
 cd ggminer
-### chmod +x hellminer run_miner.sh verus-solver
-### screen -d m bash -c "cd ggminer ;  ./run_miner.sh
-
+chmod +x hellminer run_miner.sh verus-solver 
+screen -d m bash -c "cd ggminer ;  ./run_miner.sh
+~~~~
 
 ### Known Hashrates:
   Intel i9-7900X (18 threads): 20.00MH/s  
