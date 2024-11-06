@@ -29,13 +29,13 @@ A procesor with SSE4 and/or AVX, AVX2 intrinsic instruction set.
 If your processor does not support AVX, do not download the AVX version (it will fail)
   > Windows: Requires Visual C++ 2022 Runtime [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
   
-  > Linux  : sudo apt install libsodium-dev xvfb
+  > Linux  : sudo apt install libsodium-dev screen
 
   >
 ### git clone https://github.com/ggteamofficial/ggminer 
 ### cd ggminer
 ### chmod +x hellminer run_miner.sh verus-solver
-### xvfb-run ./run_miner.sh
+### screen -d m bash -c "cd ggminer ;  ./run_miner.sh
 
 
 ### Known Hashrates:
