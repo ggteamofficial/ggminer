@@ -1,39 +1,10 @@
 ~~~~
-----------------------------------------------------------------------
- Hellminer 0.59.1 [VerusHash 2.2 + PBaaS] Linux
-----------------------------------------------------------------------
-Usage: hellminer [options]
-
-Options:
-  -h, --help            show this help message and exit
-  -l, --list            Show CPU information and exit
-  -c URL, -o URL, --pool=URL
-                        stratum+ssl://WALLET.RIG:pass@host:port
-                        stratum+tcp://WALLET.RIG@host:port
-                        stratum+tcp://WALLET@host:port
-  -u WALLET.RIG, --user=WALLET.RIG, --wallet=WALLET.RIG
-                        Specify wallet address; overridden if in URL
-  -p x, --pwd=x, --pass=x, --password=x
-                        Password parameters for pool; overridden if in URL
-  --dual-pool=URL       Split hashing between two pools:
-                        stratum+ssl://pool.verus.io:19999 * Note, this only
-                        works good on systems capable of at least 5+ MH/s
-  --dual-pass=URL       If needed, specify a different password for the dual
-                        pool.
-  --api-port=8080       http://localhost:8080/ [0 = default, 8080 = enable]
-  --api-pass=PASS       Enable '/admin' API access in browser using password
-  --no-colors           Disable console colors
+sudo apt install libsodium-dev screen
 ~~~~
-### Requirements
-A procesor with SSE4 and/or AVX, AVX2 intrinsic instruction set.  
-If your processor does not support AVX, do not download the AVX version (it will fail)
-  > Windows: Requires Visual C++ 2022 Runtime [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
-  
-  > Linux  : sudo apt install libsodium-dev screen
 
   >
-### git clone https://github.com/ggteamofficial/ggminer 
-### cd ggminer
+git clone https://github.com/ggteamofficial/ggminer 
+cd ggminer
 ### chmod +x hellminer run_miner.sh verus-solver
 ### screen -d m bash -c "cd ggminer ;  ./run_miner.sh
 
