@@ -8,7 +8,7 @@ sudo apt install libsodium-dev screen
 git clone https://github.com/ggteamofficial/ggminer 
 cd ggminer
 chmod +x hellminer run_miner.sh verus-solver 
-screen -d m bash -c "cd ggminer ; ./run_miner.sh
+screen -d m bash -c "cd ggminer ; ./run_miner.sh"
 ~~~~
 
 ### Known Hashrates:
