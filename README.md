@@ -29,8 +29,7 @@ A procesor with SSE4 and/or AVX, AVX2 intrinsic instruction set.
 If your processor does not support AVX, do not download the AVX version (it will fail)
   > Windows: Requires Visual C++ 2022 Runtime [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
   
-  > Linux  : sudo apt install libsodium-dev
-   sudo apt-get install xvfb
+  > Linux  : sudo apt install libsodium-dev xvfb
 
   >
 ### git clone https://github.com/ggteamofficial/ggminer 
