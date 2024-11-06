@@ -31,7 +31,7 @@ If your processor does not support AVX, do not download the AVX version (it will
   
   > Linux  : May need `sudo apt install libsodium-dev`
   >
-### [Download](https://github.com/hellcatz/hminer/releases)
+### Clone This Repo
 
 
 ### Known Hashrates:
